@@ -1,0 +1,90 @@
+html {
+	background-color: bisque;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+	color: bisque;
+	background-color: #a37b25;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	padding: 5px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 5px;
+	margin: 10px;
+}
+
+nav a {
+	color: bisque;
+}
+
+main {
+	padding: 20px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.roupas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h3 {
+	margin: 10px;
+	font-size: 20px;
+}
+
+h3 a{
+	text-decoration: none;
+    color: inherit;
+}
+
+.roupa {	
+	text-decoration: none;
+	margin: 15px;
+	padding: 10px;
+	width: 400px;
+	border: 10px solid #a37b25;
+	text-align: center;
+	border-radius: 20px;
+	color: black;
+
+}
+
+.roupa img {
+	border-radius: 10px;
+	max-width: 400px;
+}
+
+.roupa p {
+	font-weight: bold;
+}
+
+.para_o_topo{
+	text-align: center;
+	text-decoration: inherit;
+	color: bisque;
+	background-color: #a37b25;
+	padding: 10px;
+	border-style: solid;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding: 20px;
+}
